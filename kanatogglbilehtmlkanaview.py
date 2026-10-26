@@ -143,7 +143,7 @@ katakanatoggle = lambda char, *, kanaonly = True, katagana_decompose_force = Tru
 
 strjoin = "".join
 
-customizible_kanahint = lambda text, *, toggler = kataganatoggle, kanaonly = True, hintsym = "°", hintsym_escapes = "⁰", htmlkanaview_markup = False : strjoin(
+customizible_kanahint = lambda text, *, toggler = katakanatoggle, kanaonly = True, hintsym = "°", hintsym_escapes = "⁰", htmlkanaview_markup = False : strjoin(
     (
         (
             (
