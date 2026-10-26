@@ -147,7 +147,7 @@ customizible_kanahint = lambda text, *, toggler = kataganatoggle, kanaonly = Tru
     (
         (
             (
-                f"[{x}]({toggler(x, kanaonly = kanaonly)" if htmlkanaview_markup else f"{x}（{toggler(x, kanaonly = kanaonly）"
+                f"[{x}]({toggler(x, kanaonly = kanaonly)})" if htmlkanaview_markup else f"{x}（{toggler(x, kanaonly = kanaonly)}）"
             ) if i % 2 else x
         ).replace(
 hintsym_escapes * 2, hintsym
