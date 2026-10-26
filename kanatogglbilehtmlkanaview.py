@@ -94,7 +94,7 @@ hirakanatoggle = lambda char, *, kanaonly = True : (
     lambda CodePoint : ifelifelse_selecter(
         0x3040 < CodePoint < (0x3095 if kanaonly else 0x3097),
         chr(CodePoint + 0x60),
-        30A0 < CodePoint < (0x30F5 if kanaonly else 0x30F7),
+        0x30A0 < CodePoint < (0x30F5 if kanaonly else 0x30F7),
         chr(CodePoint - 0x60),
         char
 )
